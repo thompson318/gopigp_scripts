@@ -3,7 +3,7 @@ from gopigo import *
 from time import sleep
 
 def forward(time = 1.0, speed = 100):
-    set_speedi(speed)
+    set_speed(speed)
     fwd()
     sleep(time)
     stop()
