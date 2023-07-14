@@ -1,6 +1,7 @@
 import gopigo as gpg
 
 from time import sleep
+from math import floor
 
 def forward(time = 1.0, speed = 100):
     gpg.set_speed(speed)
