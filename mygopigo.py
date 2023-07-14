@@ -33,7 +33,7 @@ def blink(time = 5.0, blink_time = 0.5):
     for _ in range (int(floor(blinks))):
         gpg.led_on(gpg.LED_L)
         gpg.led_on(gpg.LED_R)
-        time.sleep(.5)
+        sleep(blink_time)
         gpg.led_off(gpg.LED_L)
         gpg.led_off(gpg.LED_R)
-        time.sleep(.5)
+        sleep(blink_time)
