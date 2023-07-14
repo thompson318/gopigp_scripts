@@ -30,7 +30,7 @@ def right(time = 1.0, speed = 100):
 def blink(time = 5.0, blink_time = 0.5):
     
     blinks = time/(blink_time*2)
-    for _ in range (floor(blinks)):
+    for _ in range (int(floor(blinks))):
         gpg.led_on(gpg.LED_L)
         gpg.led_on(gpg.LED_R)
         time.sleep(.5)
